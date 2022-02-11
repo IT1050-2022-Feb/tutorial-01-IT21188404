@@ -17,7 +17,7 @@ int main() {
   int num,i=1,sum=0;
 
   printf("Enter the number You need to add : ");
-  scanf("%d",&num);
+  scanf(" %d ",&num);
 
   while(i<=num){
    
