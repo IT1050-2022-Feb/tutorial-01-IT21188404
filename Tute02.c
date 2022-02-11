@@ -24,6 +24,7 @@ int main() {
 
   printf("Enter the Distance you need to go : ");
   scanf("%f",&distance);
+  
 
   if(distance<=30)
   printf("The Fee is %.2f",distance*50);
