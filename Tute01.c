@@ -9,10 +9,10 @@ int main() {
   float mark1,mark2;
 
   printf("Enter the Mark 1 : ");
-  scanf("%f",&mark1);
+  scanf(" %f ",&mark1);
 
   printf("Enter the Mark 2 : ");
-  scanf("%f",&mark2);
+  scanf(" %f ",&mark2);
 
   printf("The average is %.2f",(mark1+mark2)/2.0);
   
